@@ -8,9 +8,9 @@ import (
 
 type User struct {
 	Name string 	`json:"name"`
-	Age int 		`json:"age"`
+	Age int 	`json:"age"`
 	Email string 	`json:"email"`
-	Active bool		`json:"active"`
+	Active bool	`json:"active"`
 }
 
 // Method of User struct
