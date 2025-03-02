@@ -8,9 +8,9 @@ import (
 
 type User struct {
 	Name string 	`json:"name"`
-	Age int 		`json:"age,omitzero"`
+	Age int 	`json:"age,omitzero"`
 	Email string 	`json:"email,omitzero"`
-	Active bool		`json:"active,omitzero"`
+	Active bool	`json:"active,omitzero"`
 }
 
 func main() {
