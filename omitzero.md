@@ -9,7 +9,7 @@
 ## WHY:
 #### When converting a Go struct to JSON, fields with zero values (like 0, "", false, nil, etc.) are still included unless we explicitly use omitempty. </br>
 #### With omitzero, Go automatically detects zero values for all types and removes them from the JSON output. </br>
-### This reduces the size of the JSON and makes the API responses cleaner. </br>
+#### This reduces the size of the JSON and makes the API responses cleaner. </br>
 
 <hr>
 
